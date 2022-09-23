@@ -1,3 +1,9 @@
+//Jena Szalai
+//N220 Fall 2022
+//9-22-22
+
+
+
 let round = {
     roundColor: "#FF3D40",
     roundY: 200,

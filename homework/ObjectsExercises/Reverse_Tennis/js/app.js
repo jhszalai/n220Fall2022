@@ -1,3 +1,9 @@
+//Jena Szalai
+//N220 Fall 2022
+//9-22-2022
+
+
+
 let racket = {
     racket1X: 50,
     racket1Y: 400,

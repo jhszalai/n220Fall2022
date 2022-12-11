@@ -21,6 +21,15 @@ function drawShield(color){
     rect(75, 400, 110, 40); 
 }
 
+function drawShield2(color){
+    fill(color);
+    rect(250, 400, 110, 40); 
+}
+
+function drawShield3(color){
+    fill(color);
+    rect(425, 400, 110, 40); 
+}
 
 /**function draw(){
     drawShield(white);
@@ -201,7 +210,7 @@ console.log(villain);
 //Pew Attempt
 
 function draw() {
-    moveY=20
+    /**moveY=20
     function ProjMove() {
         moveY-=2;
     }
@@ -210,10 +219,14 @@ function draw() {
        let Projectile = rect(ship.x+50,moveY,10,200);
         setInterval(ProjMove, 1000)
         }
-    }
+    }**/
     drawShip(neon);
 
     drawShield(white);
+
+    drawShield2(white);
+
+    drawShield3(white);
     
     //movement
     if(keyIsDown(LEFT_ARROW)){
@@ -226,27 +239,27 @@ function draw() {
         ship.x+=5;
         drawShip(neon);
     }
-    if(keyIsDown(ENTER)) {
+    /*if(keyIsDown(ENTER)) {
         setTimeout(Destroy, 3000);
         fill(neon2)
        
-        shootProj()
+    
         
-    }
+    }*/
 
-    function Destroy() {
+    /*function Destroy() {
         let neon2 = "#000000";
-    }
+    }*/
    
     
-    /**if(keyIsDown(ENTER)) {
+    if(keyIsDown(ENTER)) {
         fill(neon)
         rect(ship.x+50,20,10,200);
-        shootProj(100)
+        
     }/** */
     /**if(keyIsUp(ENTER)) {
         fill(black);
     }**/
     
-
+}
 
